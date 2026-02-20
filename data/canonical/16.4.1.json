@@ -1,0 +1,1801 @@
+{
+  "patch": "16.4.1",
+  "champions": {
+    "266": {
+      "id": 266,
+      "key": "Aatrox",
+      "name": "Aatrox",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "103": {
+      "id": 103,
+      "key": "Ahri",
+      "name": "Ahri"
+    },
+    "84": {
+      "id": 84,
+      "key": "Akali",
+      "name": "Akali",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2,
+        "dmg_taken": 0.9
+      }
+    },
+    "166": {
+      "id": 166,
+      "key": "Akshan",
+      "name": "Akshan",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Scoundrel duration changed to 10 seconds."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "12": {
+      "id": 12,
+      "key": "Alistar",
+      "name": "Alistar",
+      "aram_mods": {
+        "dmg_dealt": 0.95,
+        "healing": 0.8,
+        "dmg_taken": 1.05
+      }
+    },
+    "799": {
+      "id": 799,
+      "key": "Ambessa",
+      "name": "Ambessa"
+    },
+    "32": {
+      "id": 32,
+      "key": "Amumu",
+      "name": "Amumu",
+      "aram_mods": {
+        "dmg_taken": 1
+      }
+    },
+    "34": {
+      "id": 34,
+      "key": "Anivia",
+      "name": "Anivia",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "1": {
+      "id": 1,
+      "key": "Annie",
+      "name": "Annie",
+      "aram_mods": {
+        "shielding": 0.9,
+        "dmg_dealt": 0.95,
+        "dmg_taken": 1.05
+      }
+    },
+    "523": {
+      "id": 523,
+      "key": "Aphelios",
+      "name": "Aphelios",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "22": {
+      "id": 22,
+      "key": "Ashe",
+      "name": "Ashe",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "attack_speed": 1.03,
+        "dmg_taken": 1
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Cooldown changed to 18 / 17.5 / 17 / 16.5 / 16 seconds."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "136": {
+      "id": 136,
+      "key": "AurelionSol",
+      "name": "Aurelion Sol",
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [],
+        "E": [
+          "Cooldown changed to 14 seconds."
+        ],
+        "R": []
+      }
+    },
+    "893": {
+      "id": 893,
+      "key": "Aurora",
+      "name": "Aurora"
+    },
+    "268": {
+      "id": 268,
+      "key": "Azir",
+      "name": "Azir",
+      "aram_mods": {
+        "attack_speed": 1.025,
+        "dmg_dealt": 1,
+        "ability_haste": 20,
+        "dmg_taken": 0.95
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Azir will start the game with one point already ranked in Arise!, allowing him to allocate the other two to his other abilities."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "432": {
+      "id": 432,
+      "key": "Bard",
+      "name": "Bard",
+      "aram_mods": {
+        "dmg_dealt": 1.15,
+        "healing": 1.2,
+        "dmg_taken": 0.85
+      },
+      "spell_changes": {
+        "P": [
+          "Chime spawn rate changed to every 30 seconds (initial spawn unchanged)."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "200": {
+      "id": 200,
+      "key": "Belveth",
+      "name": "Bel'Veth",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      },
+      "spell_changes": {
+        "P": [
+          "Bel'Veth gains 2 stacks from nearby siege minion deaths."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": [
+          "Enhanced Void Corals spawn from nearby turrets being destroyed."
+        ]
+      }
+    },
+    "53": {
+      "id": 53,
+      "key": "Blitzcrank",
+      "name": "Blitzcrank"
+    },
+    "63": {
+      "id": 63,
+      "key": "Brand",
+      "name": "Brand",
+      "aram_mods": {
+        "dmg_dealt": 0.95,
+        "ability_haste": -10,
+        "dmg_taken": 1.1
+      }
+    },
+    "201": {
+      "id": 201,
+      "key": "Braum",
+      "name": "Braum"
+    },
+    "233": {
+      "id": 233,
+      "key": "Briar",
+      "name": "Briar",
+      "aram_mods": {
+        "healing": 1.2,
+        "dmg_dealt": 1.05
+      }
+    },
+    "51": {
+      "id": 51,
+      "key": "Caitlyn",
+      "name": "Caitlyn",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 1
+      }
+    },
+    "164": {
+      "id": 164,
+      "key": "Camille",
+      "name": "Camille",
+      "aram_mods": {
+        "shielding": 1.1,
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05,
+        "ability_haste": 10,
+        "healing": 1.2
+      }
+    },
+    "69": {
+      "id": 69,
+      "key": "Cassiopeia",
+      "name": "Cassiopeia"
+    },
+    "31": {
+      "id": 31,
+      "key": "Chogath",
+      "name": "Cho'Gath",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 1
+      }
+    },
+    "42": {
+      "id": 42,
+      "key": "Corki",
+      "name": "Corki",
+      "aram_mods": {
+        "ability_haste": 20,
+        "dmg_taken": 0.9
+      }
+    },
+    "122": {
+      "id": 122,
+      "key": "Darius",
+      "name": "Darius",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "131": {
+      "id": 131,
+      "key": "Diana",
+      "name": "Diana",
+      "aram_mods": {
+        "dmg_taken": 0.98,
+        "dmg_dealt": 1.02
+      }
+    },
+    "119": {
+      "id": 119,
+      "key": "Draven",
+      "name": "Draven",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      }
+    },
+    "36": {
+      "id": 36,
+      "key": "DrMundo",
+      "name": "Dr. Mundo",
+      "aram_mods": {
+        "dmg_dealt": 0.9,
+        "healing": 0.9,
+        "dmg_taken": 1.05
+      }
+    },
+    "245": {
+      "id": 245,
+      "key": "Ekko",
+      "name": "Ekko",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "tenacity": 1.2,
+        "dmg_taken": 1
+      }
+    },
+    "60": {
+      "id": 60,
+      "key": "Elise",
+      "name": "Elise",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "tenacity": 1.2,
+        "dmg_taken": 0.9
+      }
+    },
+    "28": {
+      "id": 28,
+      "key": "Evelynn",
+      "name": "Evelynn",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "tenacity": 1.2,
+        "dmg_taken": 0.9
+      }
+    },
+    "81": {
+      "id": 81,
+      "key": "Ezreal",
+      "name": "Ezreal",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "9": {
+      "id": 9,
+      "key": "Fiddlesticks",
+      "name": "Fiddlesticks",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "114": {
+      "id": 114,
+      "key": "Fiora",
+      "name": "Fiora",
+      "aram_mods": {
+        "dmg_taken": 0.95
+      }
+    },
+    "105": {
+      "id": 105,
+      "key": "Fizz",
+      "name": "Fizz",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "tenacity": 1.1,
+        "dmg_taken": 0.95
+      }
+    },
+    "3": {
+      "id": 3,
+      "key": "Galio",
+      "name": "Galio",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      }
+    },
+    "41": {
+      "id": 41,
+      "key": "Gangplank",
+      "name": "Gangplank",
+      "aram_mods": {
+        "dmg_dealt": 1.05
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "New Effect: Passively gains 1 Silver Serpents Gangplank Silver Serpent per second."
+        ],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "86": {
+      "id": 86,
+      "key": "Garen",
+      "name": "Garen",
+      "aram_mods": {
+        "dmg_taken": 0.95
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Bonus resistances on-kill changed to 0.5. Number of enemy kills needed to reach the maximum amount changed to 60."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "150": {
+      "id": 150,
+      "key": "Gnar",
+      "name": "Gnar",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "attack_speed": 1.025,
+        "dmg_taken": 0.95
+      }
+    },
+    "79": {
+      "id": 79,
+      "key": "Gragas",
+      "name": "Gragas",
+      "aram_mods": {
+        "dmg_taken": 0.95
+      }
+    },
+    "104": {
+      "id": 104,
+      "key": "Graves",
+      "name": "Graves"
+    },
+    "887": {
+      "id": 887,
+      "key": "Gwen",
+      "name": "Gwen",
+      "aram_mods": {
+        "dmg_dealt": 1
+      }
+    },
+    "120": {
+      "id": 120,
+      "key": "Hecarim",
+      "name": "Hecarim",
+      "aram_mods": {
+        "healing": 1.2,
+        "dmg_dealt": 1.05,
+        "ability_haste": 10,
+        "dmg_taken": 0.9
+      }
+    },
+    "74": {
+      "id": 74,
+      "key": "Heimerdinger",
+      "name": "Heimerdinger",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.9
+      }
+    },
+    "910": {
+      "id": 910,
+      "key": "Hwei",
+      "name": "Hwei",
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Devastating Fire Hwei",
+          "Deals 80% damage to minions.",
+          "Severing Bolt Hwei",
+          "Dealt 80% damage to minions.",
+          "Molten Fissure Hwei",
+          "Deals 80% damage to minions."
+        ],
+        "W": [
+          "Stirring Lights Hwei",
+          "Deals 80% damage to minions."
+        ],
+        "E": [
+          "Grim Visage Hwei",
+          "Deals 80% damage to minions.",
+          "Gaze of the Abyss Hwei",
+          "Deals 80% damage to minions.",
+          "Crushing Maw Hwei",
+          "Deals 80% damage to minions."
+        ],
+        "R": []
+      }
+    },
+    "420": {
+      "id": 420,
+      "key": "Illaoi",
+      "name": "Illaoi",
+      "aram_mods": {
+        "dmg_dealt": 0.95,
+        "healing": 0.8,
+        "dmg_taken": 1.05
+      }
+    },
+    "39": {
+      "id": 39,
+      "key": "Irelia",
+      "name": "Irelia",
+      "aram_mods": {
+        "dmg_dealt": 1,
+        "ability_haste": 20,
+        "dmg_taken": 1
+      }
+    },
+    "427": {
+      "id": 427,
+      "key": "Ivern",
+      "name": "Ivern",
+      "aram_mods": {
+        "shielding": 0.8,
+        "dmg_dealt": 0.95
+      }
+    },
+    "40": {
+      "id": 40,
+      "key": "Janna",
+      "name": "Janna",
+      "aram_mods": {
+        "shielding": 0.95,
+        "dmg_dealt": 0.95,
+        "healing": 0.9,
+        "dmg_taken": 1.05
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Cooldown changed to 16 seconds."
+        ],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "59": {
+      "id": 59,
+      "key": "JarvanIV",
+      "name": "Jarvan IV",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "24": {
+      "id": 24,
+      "key": "Jax",
+      "name": "Jax",
+      "aram_mods": {
+        "dmg_taken": 0.97,
+        "dmg_dealt": 1.05
+      }
+    },
+    "126": {
+      "id": 126,
+      "key": "Jayce",
+      "name": "Jayce",
+      "aram_mods": {
+        "dmg_dealt": 1.05
+      }
+    },
+    "202": {
+      "id": 202,
+      "key": "Jhin",
+      "name": "Jhin",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      }
+    },
+    "222": {
+      "id": 222,
+      "key": "Jinx",
+      "name": "Jinx",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      }
+    },
+    "145": {
+      "id": 145,
+      "key": "Kaisa",
+      "name": "Kai'Sa",
+      "aram_mods": {
+        "dmg_dealt": 1,
+        "attack_speed": 1.025,
+        "dmg_taken": 0.95
+      }
+    },
+    "429": {
+      "id": 429,
+      "key": "Kalista",
+      "name": "Kalista",
+      "aram_mods": {
+        "dmg_taken": 0.9,
+        "dmg_dealt": 1.1
+      }
+    },
+    "43": {
+      "id": 43,
+      "key": "Karma",
+      "name": "Karma",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 0.98
+      }
+    },
+    "30": {
+      "id": 30,
+      "key": "Karthus",
+      "name": "Karthus",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [
+          "Duration changed to 5 seconds."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "38": {
+      "id": 38,
+      "key": "Kassadin",
+      "name": "Kassadin",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1
+      }
+    },
+    "55": {
+      "id": 55,
+      "key": "Katarina",
+      "name": "Katarina",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1,
+        "ability_haste": 10,
+        "dmg_taken": 1
+      }
+    },
+    "10": {
+      "id": 10,
+      "key": "Kayle",
+      "name": "Kayle",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.95
+      }
+    },
+    "141": {
+      "id": 141,
+      "key": "Kayn",
+      "name": "Kayn",
+      "aram_mods": {
+        "dmg_dealt": 1,
+        "healing": 0.8,
+        "tenacity": 1.2
+      },
+      "spell_changes": {
+        "P": [
+          "Transformation no longer restores full health and mana."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "85": {
+      "id": 85,
+      "key": "Kennen",
+      "name": "Kennen",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2,
+        "dmg_taken": 1
+      }
+    },
+    "121": {
+      "id": 121,
+      "key": "Khazix",
+      "name": "Kha'Zix",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1.1,
+        "healing": 1.2,
+        "dmg_taken": 0.9
+      }
+    },
+    "203": {
+      "id": 203,
+      "key": "Kindred",
+      "name": "Kindred",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "attack_speed": 1.025,
+        "dmg_taken": 0.9
+      }
+    },
+    "240": {
+      "id": 240,
+      "key": "Kled",
+      "name": "Kled",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "96": {
+      "id": 96,
+      "key": "KogMaw",
+      "name": "Kog'Maw",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.88
+      }
+    },
+    "897": {
+      "id": 897,
+      "key": "KSante",
+      "name": "K'Sante",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "7": {
+      "id": 7,
+      "key": "Leblanc",
+      "name": "LeBlanc",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "ability_haste": 20,
+        "dmg_taken": 0.9
+      }
+    },
+    "64": {
+      "id": 64,
+      "key": "LeeSin",
+      "name": "Lee Sin",
+      "aram_mods": {
+        "shielding": 1.2,
+        "energy_regen": 1.2,
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05,
+        "healing": 1.1
+      }
+    },
+    "89": {
+      "id": 89,
+      "key": "Leona",
+      "name": "Leona",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "876": {
+      "id": 876,
+      "key": "Lillia",
+      "name": "Lillia",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [],
+        "E": [
+          "Cooldown changed to 18 seconds."
+        ],
+        "R": []
+      }
+    },
+    "127": {
+      "id": 127,
+      "key": "Lissandra",
+      "name": "Lissandra",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "236": {
+      "id": 236,
+      "key": "Lucian",
+      "name": "Lucian",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1.05,
+        "ability_haste": 10,
+        "dmg_taken": 0.95
+      }
+    },
+    "117": {
+      "id": 117,
+      "key": "Lulu",
+      "name": "Lulu",
+      "aram_mods": {
+        "shielding": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "99": {
+      "id": 99,
+      "key": "Lux",
+      "name": "Lux",
+      "aram_mods": {
+        "shielding": 0.8,
+        "dmg_dealt": 0.85,
+        "dmg_taken": 1.1
+      }
+    },
+    "54": {
+      "id": 54,
+      "key": "Malphite",
+      "name": "Malphite"
+    },
+    "90": {
+      "id": 90,
+      "key": "Malzahar",
+      "name": "Malzahar",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Deals 80% damage to minions (60% total)."
+        ],
+        "W": [
+          "Deals 80% damage to minions (60% total)."
+        ],
+        "E": [],
+        "R": [
+          "Null Zone deals 80% damage to minions (60% total)."
+        ]
+      }
+    },
+    "57": {
+      "id": 57,
+      "key": "Maokai",
+      "name": "Maokai",
+      "aram_mods": {
+        "dmg_dealt": 0.8,
+        "healing": 0.9,
+        "dmg_taken": 1.1
+      }
+    },
+    "11": {
+      "id": 11,
+      "key": "MasterYi",
+      "name": "Master Yi",
+      "aram_mods": {
+        "dmg_taken": 0.97,
+        "dmg_dealt": 1
+      }
+    },
+    "800": {
+      "id": 800,
+      "key": "Mel",
+      "name": "Mel"
+    },
+    "902": {
+      "id": 902,
+      "key": "Milio",
+      "name": "Milio",
+      "aram_mods": {
+        "shielding": 0.9,
+        "healing": 0.95,
+        "ability_haste": -10
+      }
+    },
+    "21": {
+      "id": 21,
+      "key": "MissFortune",
+      "name": "Miss Fortune",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.9
+      }
+    },
+    "62": {
+      "id": 62,
+      "key": "MonkeyKing",
+      "name": "Wukong"
+    },
+    "82": {
+      "id": 82,
+      "key": "Mordekaiser",
+      "name": "Mordekaiser",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "25": {
+      "id": 25,
+      "key": "Morgana",
+      "name": "Morgana",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.95
+      }
+    },
+    "950": {
+      "id": 950,
+      "key": "Naafiri",
+      "name": "Naafiri",
+      "aram_mods": {
+        "ability_haste": 10,
+        "dmg_dealt": 1.1
+      }
+    },
+    "267": {
+      "id": 267,
+      "key": "Nami",
+      "name": "Nami",
+      "aram_mods": {
+        "dmg_dealt": 0.95,
+        "healing": 0.9,
+        "dmg_taken": 1.05
+      }
+    },
+    "75": {
+      "id": 75,
+      "key": "Nasus",
+      "name": "Nasus",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Per-kill stacks changed to 6 Siphoning Strike.",
+          "Per-large-kill stacks changed to 24 Siphoning Strike."
+        ],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "111": {
+      "id": 111,
+      "key": "Nautilus",
+      "name": "Nautilus",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.95
+      }
+    },
+    "518": {
+      "id": 518,
+      "key": "Neeko",
+      "name": "Neeko"
+    },
+    "76": {
+      "id": 76,
+      "key": "Nidalee",
+      "name": "Nidalee",
+      "aram_mods": {
+        "dmg_dealt": 1.1
+      }
+    },
+    "895": {
+      "id": 895,
+      "key": "Nilah",
+      "name": "Nilah",
+      "aram_mods": {
+        "dmg_dealt": 0.97
+      }
+    },
+    "56": {
+      "id": 56,
+      "key": "Nocturne",
+      "name": "Nocturne",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "healing": 1.2,
+        "dmg_taken": 0.9
+      }
+    },
+    "20": {
+      "id": 20,
+      "key": "Nunu",
+      "name": "Nunu & Willump",
+      "aram_mods": {
+        "shielding": 1.2,
+        "dmg_taken": 0.9,
+        "dmg_dealt": 1.1,
+        "healing": 1.1,
+        "tenacity": 1.2
+      }
+    },
+    "2": {
+      "id": 2,
+      "key": "Olaf",
+      "name": "Olaf",
+      "aram_mods": {
+        "dmg_dealt": 1.05
+      }
+    },
+    "61": {
+      "id": 61,
+      "key": "Orianna",
+      "name": "Orianna"
+    },
+    "516": {
+      "id": 516,
+      "key": "Ornn",
+      "name": "Ornn",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [
+          "New Effect: Forging an item puts Living Forge on a 120-second cooldown."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "80": {
+      "id": 80,
+      "key": "Pantheon",
+      "name": "Pantheon",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "78": {
+      "id": 78,
+      "key": "Poppy",
+      "name": "Poppy"
+    },
+    "555": {
+      "id": 555,
+      "key": "Pyke",
+      "name": "Pyke",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "tenacity": 1.2,
+        "dmg_taken": 0.95
+      }
+    },
+    "246": {
+      "id": 246,
+      "key": "Qiyana",
+      "name": "Qiyana",
+      "aram_mods": {
+        "dmg_dealt": 1.15,
+        "tenacity": 1.2,
+        "dmg_taken": 0.9
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Targeting a Health Relic on Howling Abyss grants the River Element."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "133": {
+      "id": 133,
+      "key": "Quinn",
+      "name": "Quinn",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1.1,
+        "attack_speed": 1.025,
+        "dmg_taken": 0.9
+      }
+    },
+    "497": {
+      "id": 497,
+      "key": "Rakan",
+      "name": "Rakan",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1
+      }
+    },
+    "33": {
+      "id": 33,
+      "key": "Rammus",
+      "name": "Rammus",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "421": {
+      "id": 421,
+      "key": "RekSai",
+      "name": "Rek'Sai",
+      "aram_mods": {
+        "dmg_taken": 0.9,
+        "dmg_dealt": 1.05
+      }
+    },
+    "526": {
+      "id": 526,
+      "key": "Rell",
+      "name": "Rell",
+      "aram_mods": {
+        "shielding": 0.9,
+        "dmg_dealt": 0.95,
+        "healing": 0.9,
+        "dmg_taken": 1
+      }
+    },
+    "888": {
+      "id": 888,
+      "key": "Renata",
+      "name": "Renata Glasc",
+      "aram_mods": {
+        "shielding": 0.8,
+        "dmg_dealt": 0.95,
+        "dmg_taken": 1.05
+      }
+    },
+    "58": {
+      "id": 58,
+      "key": "Renekton",
+      "name": "Renekton",
+      "aram_mods": {
+        "healing": 1.05,
+        "dmg_dealt": 1
+      }
+    },
+    "107": {
+      "id": 107,
+      "key": "Rengar",
+      "name": "Rengar",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "tenacity": 1.2,
+        "dmg_taken": 0.92
+      }
+    },
+    "92": {
+      "id": 92,
+      "key": "Riven",
+      "name": "Riven",
+      "aram_mods": {
+        "shielding": 1,
+        "dmg_dealt": 1.05,
+        "dmg_taken": 0.92
+      }
+    },
+    "68": {
+      "id": 68,
+      "key": "Rumble",
+      "name": "Rumble",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "13": {
+      "id": 13,
+      "key": "Ryze",
+      "name": "Ryze",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      }
+    },
+    "360": {
+      "id": 360,
+      "key": "Samira",
+      "name": "Samira",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.98
+      }
+    },
+    "113": {
+      "id": 113,
+      "key": "Sejuani",
+      "name": "Sejuani",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1
+      }
+    },
+    "235": {
+      "id": 235,
+      "key": "Senna",
+      "name": "Senna",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.97
+      }
+    },
+    "147": {
+      "id": 147,
+      "key": "Seraphine",
+      "name": "Seraphine",
+      "aram_mods": {
+        "shielding": 0.8,
+        "dmg_taken": 1.2,
+        "dmg_dealt": 0.9,
+        "ability_haste": -20,
+        "healing": 0.8
+      }
+    },
+    "875": {
+      "id": 875,
+      "key": "Sett",
+      "name": "Sett",
+      "aram_mods": {
+        "shielding": 0.9,
+        "dmg_dealt": 0.9,
+        "healing": 0.9,
+        "dmg_taken": 1.1
+      }
+    },
+    "35": {
+      "id": 35,
+      "key": "Shaco",
+      "name": "Shaco",
+      "aram_mods": {
+        "dmg_dealt": 1.05
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [
+          "Limited to 6 Boxes active."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "98": {
+      "id": 98,
+      "key": "Shen",
+      "name": "Shen",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "102": {
+      "id": 102,
+      "key": "Shyvana",
+      "name": "Shyvana",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1
+      },
+      "spell_changes": {
+        "P": [
+          "Alternate Innate: Shyvana gains 1 bonus armor, 1 bonus magic resistance, and 0.05 bonus Fury regeneration whenever a siege or a canon minion dies within 1400 units range of her, or when she is healed by a health relic's area of effect on the enemy's side of the map.",
+          "She will not gain bonuses if she is dead, even if in range."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "27": {
+      "id": 27,
+      "key": "Singed",
+      "name": "Singed",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      }
+    },
+    "14": {
+      "id": 14,
+      "key": "Sion",
+      "name": "Sion",
+      "aram_mods": {
+        "dmg_dealt": 0.9,
+        "ability_haste": -10,
+        "dmg_taken": 1.1
+      },
+      "spell_changes": {
+        "P": [
+          "Life steal changed to 50%."
+        ],
+        "Q": [],
+        "W": [
+          "health Health per lesser unit kill changed to 2.",
+          "health Health per greater unit kill changed to 8.",
+          "Shield health ratio changed to 6 / 8 / 10 / 12 / 14% maximum health hp."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "15": {
+      "id": 15,
+      "key": "Sivir",
+      "name": "Sivir",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Cooldown changed to 14 / 13 / 12 / 11 / 10 seconds."
+        ],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "72": {
+      "id": 72,
+      "key": "Skarner",
+      "name": "Skarner",
+      "aram_mods": {
+        "dmg_taken": 1.05
+      }
+    },
+    "901": {
+      "id": 901,
+      "key": "Smolder",
+      "name": "Smolder",
+      "aram_mods": {
+        "ability_haste": -10,
+        "dmg_taken": 1.05
+      }
+    },
+    "37": {
+      "id": 37,
+      "key": "Sona",
+      "name": "Sona",
+      "aram_mods": {
+        "shielding": 0.85,
+        "dmg_taken": 1.1,
+        "dmg_dealt": 1,
+        "ability_haste": -20,
+        "healing": 0.85
+      }
+    },
+    "16": {
+      "id": 16,
+      "key": "Soraka",
+      "name": "Soraka",
+      "aram_mods": {
+        "dmg_taken": 0.97
+      }
+    },
+    "50": {
+      "id": 50,
+      "key": "Swain",
+      "name": "Swain",
+      "aram_mods": {
+        "dmg_dealt": 0.9,
+        "healing": 0.8,
+        "dmg_taken": 1.15
+      }
+    },
+    "517": {
+      "id": 517,
+      "key": "Sylas",
+      "name": "Sylas",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "134": {
+      "id": 134,
+      "key": "Syndra",
+      "name": "Syndra",
+      "aram_mods": {
+        "ability_haste": 5,
+        "dmg_dealt": 1.05
+      }
+    },
+    "223": {
+      "id": 223,
+      "key": "TahmKench",
+      "name": "Tahm Kench",
+      "aram_mods": {
+        "dmg_taken": 1.05
+      }
+    },
+    "163": {
+      "id": 163,
+      "key": "Taliyah",
+      "name": "Taliyah",
+      "aram_mods": {
+        "dmg_dealt": 1
+      }
+    },
+    "91": {
+      "id": 91,
+      "key": "Talon",
+      "name": "Talon",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "tenacity": 1.2,
+        "dmg_taken": 0.95
+      }
+    },
+    "44": {
+      "id": 44,
+      "key": "Taric",
+      "name": "Taric",
+      "aram_mods": {
+        "dmg_taken": 1.1
+      }
+    },
+    "17": {
+      "id": 17,
+      "key": "Teemo",
+      "name": "Teemo",
+      "aram_mods": {
+        "dmg_dealt": 0.9,
+        "ability_haste": -20,
+        "dmg_taken": 1.1
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": [
+          "Deals 66% damage to minions (50% total).",
+          "Maximum charges changed to 2 / 3 / 4."
+        ]
+      }
+    },
+    "412": {
+      "id": 412,
+      "key": "Thresh",
+      "name": "Thresh",
+      "aram_mods": {
+        "dmg_taken": 1.05
+      },
+      "spell_changes": {
+        "P": [
+          "Stacks per soul changed to 2."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "18": {
+      "id": 18,
+      "key": "Tristana",
+      "name": "Tristana",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      }
+    },
+    "48": {
+      "id": 48,
+      "key": "Trundle",
+      "name": "Trundle",
+      "aram_mods": {
+        "healing": 1,
+        "dmg_taken": 1.05
+      }
+    },
+    "23": {
+      "id": 23,
+      "key": "Tryndamere",
+      "name": "Tryndamere",
+      "aram_mods": {
+        "dmg_dealt": 1.1,
+        "healing": 1.35,
+        "dmg_taken": 0.9
+      }
+    },
+    "4": {
+      "id": 4,
+      "key": "TwistedFate",
+      "name": "Twisted Fate"
+    },
+    "29": {
+      "id": 29,
+      "key": "Twitch",
+      "name": "Twitch",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1
+      }
+    },
+    "77": {
+      "id": 77,
+      "key": "Udyr",
+      "name": "Udyr",
+      "aram_mods": {
+        "dmg_dealt": 1
+      }
+    },
+    "6": {
+      "id": 6,
+      "key": "Urgot",
+      "name": "Urgot",
+      "aram_mods": {
+        "dmg_taken": 1.05
+      }
+    },
+    "110": {
+      "id": 110,
+      "key": "Varus",
+      "name": "Varus",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.98
+      }
+    },
+    "67": {
+      "id": 67,
+      "key": "Vayne",
+      "name": "Vayne",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      }
+    },
+    "45": {
+      "id": 45,
+      "key": "Veigar",
+      "name": "Veigar",
+      "aram_mods": {
+        "dmg_taken": 1.1,
+        "dmg_dealt": 0.9
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [],
+        "W": [],
+        "E": [
+          "Cooldown changed to 23 / 21.5 / 20 / 18.5 / 17 seconds."
+        ],
+        "R": []
+      }
+    },
+    "161": {
+      "id": 161,
+      "key": "Velkoz",
+      "name": "Vel'Koz",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "711": {
+      "id": 711,
+      "key": "Vex",
+      "name": "Vex",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 0.95
+      }
+    },
+    "254": {
+      "id": 254,
+      "key": "Vi",
+      "name": "Vi",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.05
+      }
+    },
+    "234": {
+      "id": 234,
+      "key": "Viego",
+      "name": "Viego",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.05
+      }
+    },
+    "112": {
+      "id": 112,
+      "key": "Viktor",
+      "name": "Viktor",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.95
+      }
+    },
+    "8": {
+      "id": 8,
+      "key": "Vladimir",
+      "name": "Vladimir",
+      "aram_mods": {
+        "dmg_dealt": 0.95,
+        "healing": 0.9,
+        "dmg_taken": 1.05
+      }
+    },
+    "106": {
+      "id": 106,
+      "key": "Volibear",
+      "name": "Volibear"
+    },
+    "19": {
+      "id": 19,
+      "key": "Warwick",
+      "name": "Warwick",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "healing": 1.05,
+        "dmg_taken": 0.95
+      }
+    },
+    "498": {
+      "id": 498,
+      "key": "Xayah",
+      "name": "Xayah",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "attack_speed": 1.03,
+        "dmg_taken": 1
+      }
+    },
+    "101": {
+      "id": 101,
+      "key": "Xerath",
+      "name": "Xerath",
+      "aram_mods": {
+        "dmg_taken": 1.05,
+        "dmg_dealt": 0.93
+      }
+    },
+    "5": {
+      "id": 5,
+      "key": "XinZhao",
+      "name": "Xin Zhao",
+      "aram_mods": {
+        "dmg_dealt": 0.95
+      }
+    },
+    "157": {
+      "id": 157,
+      "key": "Yasuo",
+      "name": "Yasuo",
+      "aram_mods": {
+        "attack_speed": 1.025
+      }
+    },
+    "777": {
+      "id": 777,
+      "key": "Yone",
+      "name": "Yone",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "attack_speed": 1.025,
+        "dmg_taken": 0.97
+      }
+    },
+    "83": {
+      "id": 83,
+      "key": "Yorick",
+      "name": "Yorick",
+      "spell_changes": {
+        "P": [
+          "Deaths required for a grave changed to 5 at all levels."
+        ],
+        "Q": [],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "804": {
+      "id": 804,
+      "key": "Yunara",
+      "name": "Yunara"
+    },
+    "350": {
+      "id": 350,
+      "key": "Yuumi",
+      "name": "Yuumi",
+      "aram_mods": {
+        "dmg_dealt": 1.05
+      }
+    },
+    "904": {
+      "id": 904,
+      "key": "Zaahen",
+      "name": "Zaahen"
+    },
+    "154": {
+      "id": 154,
+      "key": "Zac",
+      "name": "Zac",
+      "aram_mods": {
+        "healing": 1.1,
+        "dmg_taken": 0.96
+      }
+    },
+    "238": {
+      "id": 238,
+      "key": "Zed",
+      "name": "Zed",
+      "aram_mods": {
+        "tenacity": 1.2,
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2,
+        "dmg_taken": 0.95
+      }
+    },
+    "221": {
+      "id": 221,
+      "key": "Zeri",
+      "name": "Zeri",
+      "aram_mods": {
+        "dmg_taken": 1,
+        "dmg_dealt": 1.1
+      },
+      "spell_changes": {
+        "P": [],
+        "Q": [
+          "Zeri will start the game with one point already ranked in Burst Fire!, allowing her to allocate the other two to her other abilities."
+        ],
+        "W": [],
+        "E": [],
+        "R": []
+      }
+    },
+    "115": {
+      "id": 115,
+      "key": "Ziggs",
+      "name": "Ziggs",
+      "aram_mods": {
+        "dmg_dealt": 0.87,
+        "ability_haste": -20,
+        "dmg_taken": 1.2
+      },
+      "spell_changes": {
+        "P": [
+          "Damage to structures changed to 150%."
+        ],
+        "Q": [],
+        "W": [
+          "Tower execute threshold changed to 12.5 / 15 / 17.5 / 20 / 22.5% of turret's maximum health."
+        ],
+        "E": [],
+        "R": []
+      }
+    },
+    "26": {
+      "id": 26,
+      "key": "Zilean",
+      "name": "Zilean",
+      "aram_mods": {
+        "dmg_dealt": 1.05,
+        "ability_haste": 10,
+        "dmg_taken": 0.95
+      }
+    },
+    "142": {
+      "id": 142,
+      "key": "Zoe",
+      "name": "Zoe",
+      "aram_mods": {
+        "dmg_taken": 0.95,
+        "dmg_dealt": 1.1
+      }
+    },
+    "143": {
+      "id": 143,
+      "key": "Zyra",
+      "name": "Zyra",
+      "aram_mods": {
+        "dmg_dealt": 0.9,
+        "ability_haste": -10,
+        "dmg_taken": 1.05
+      }
+    }
+  }
+}

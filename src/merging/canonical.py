@@ -1,9 +1,12 @@
-from pprint import pprint
+import json
+from pathlib import Path
+
 
 def merge_champion_data(
     ddragon_basic: dict,
     fandom_champions: dict,
     fandom_aram_modifiers: dict,
+    patch: str,  
 ):
     merged = {}
 
@@ -24,10 +27,22 @@ def merge_champion_data(
         if aram_mods:
             entry["aram_mods"] = aram_mods
 
-        if spell_changes and any(spell_changes.get(k) for k in ["P", "Q", "W", "E", "R"]):
+        if spell_changes and any(
+            spell_changes.get(k) for k in ["P", "Q", "W", "E", "R"]
+        ):
             entry["spell_changes"] = spell_changes
 
         merged[champ_id] = entry
 
-    #pprint(merged, sort_dicts=False)
-    return merged
+    snapshot = {
+        "patch": patch,
+        "champions": merged,
+    }
+
+    output_path = Path(f"data/canonical/{patch}.json")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(snapshot, f, indent=2, ensure_ascii=False)
+
+    return output_path

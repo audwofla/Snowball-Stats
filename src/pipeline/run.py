@@ -25,10 +25,11 @@ def run_pipeline():
     aram_changes = parse_aram_modifiers()
 
     print("Merging...")
-    canonical = merge_champion_data(
+    merge_champion_data(
         ddragon_basic,
         champions_lua,
-        aram_changes
+        aram_changes,
+        patch,
     )
 
-    return patch, canonical
+    return patch

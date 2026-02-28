@@ -8,6 +8,7 @@ from src.parsing.champions import parse_champions_lua
 from src.parsing.aram_modifiers import parse_aram_modifiers
 from src.merging.canonical import merge_champion_data
 from src.loading.load_champions import load_champions_for_patch
+from src.utils.versioning import patch_mm
 
 
 def run_pipeline():
@@ -18,14 +19,16 @@ def run_pipeline():
 
     if not is_new_patch:
         print(f"Patch {latest_patch} already downloaded. Skipping ingestion.")
-        patch = latest_patch
+        full_patch = latest_patch
     else:
         print(f"New patch detected: {latest_patch}")
         update_fandom()
-        patch = update_ddragon(keep_only_latest=True)
+        full_patch = update_ddragon(keep_only_latest=True)
+
+    patch = patch_mm(full_patch)
 
     print("Parsing data...")
-    ddragon_basic = parse_ddragon_basic_json(patch)
+    ddragon_basic = parse_ddragon_basic_json(full_patch)
     champions_lua = parse_champions_lua()
     aram_changes = parse_aram_modifiers()
 

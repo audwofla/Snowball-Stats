@@ -39,7 +39,6 @@ def fetch_aram_matches_for_puuid(
         except RiotRateLimit:
             continue
 
-    # final attempt (will raise if still failing)
     r = _get_with_backoff(url, headers, params)
     return r.json()
 
@@ -71,12 +70,26 @@ def discover_for_active_accounts(
     limit_accounts: int | None = 5,
     sleep_seconds: float = 0.10,
 ) -> None:
+
     with conn.cursor() as cur:
         if limit_accounts is None:
-            cur.execute("SELECT puuid FROM accounts WHERE status = 'active'")
+            cur.execute(
+                """
+                SELECT puuid
+                FROM accounts
+                WHERE status = 'active'
+                ORDER BY last_crawled NULLS FIRST, random();
+                """
+            )
         else:
             cur.execute(
-                "SELECT puuid FROM accounts WHERE status = 'active' LIMIT %s",
+                """
+                SELECT puuid
+                FROM accounts
+                WHERE status = 'active'
+                ORDER BY last_crawled NULLS FIRST, random()
+                LIMIT %s;
+                """,
                 (limit_accounts,),
             )
         puuids = [row[0] for row in cur.fetchall()]
@@ -90,7 +103,19 @@ def discover_for_active_accounts(
         )
 
         if not match_ids:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "UPDATE accounts SET last_crawled = NOW() WHERE puuid = %s;",
+                    (puuid,),
+                )
+            conn.commit()
             continue
 
         enqueue_match_ids(conn, match_ids, discovered_from_puuid_str=puuid)
-        time.sleep(sleep_seconds)
+
+        with conn.cursor() as cur:
+            cur.execute(
+                "UPDATE accounts SET last_crawled = NOW() WHERE puuid = %s;",
+                (puuid,),
+            )
+        conn.commit()
